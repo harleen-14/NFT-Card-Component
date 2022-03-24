@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+*{
+    margin: 0;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+.center_div{
+    position: absolute;
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 5px;
+    
+}
+.imgeq{
+    padding: 20px;
+    width: 260px;
+}
+.eq_img img{
+    border-radius: 12%;
+}
+.text{
+    margin-left: 20px ;
+    color: hsl(0, 0%, 100%);
+}
+.text p{
+    margin-top: 10px ;
+    color: hsl(215, 51%, 70%);
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.content .eth{
+    color:  hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+}
+.content .time{
+    color:  hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+}
+.content p {
+    margin-left: 5px;
+}
+.line{
+    width: 260px;
+    height: 1px;
+    margin-left: 15px;
+    background-color: hsl(215, 32%, 27%);
+}
+.last{
+    margin: 20px ;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.last p{
+    margin-top: 5px;
+    margin-left:10px ;
+    color: hsl(215, 51%, 70%);
+}
+.last p span{
+    color: hsl(0, 0%, 100%);
+}
+.avatar{
+    height: 2rem;
+    width: 2rem;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
